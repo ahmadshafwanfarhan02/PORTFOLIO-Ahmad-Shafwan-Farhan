@@ -1,0 +1,151 @@
+<!DOCTYPE html>
+<html lang="en" class="scroll-smooth">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Ahmad Shafwan Farhan | Portfolio</title>
+    <!-- Tailwind CSS CDN -->
+    <script src="https://tailwindcss.com"></script>
+    <!-- Font -->
+    <link rel="preconnect" href="https://googleapis.com">
+    <link rel="preconnect" href="https://gstatic.com" crossorigin>
+    <link href="https://googleapis.com/css2?family=Plus+Jakarta+Sans:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+    <style>
+        body { font-family: 'Plus Jakarta Sans', sans-serif; }
+    </style>
+</head>
+<body class="bg-[#0a0a0a] text-gray-300 antialiased selection:bg-emerald-500 selection:text-black">
+
+    <!-- NAVBAR -->
+    <nav class="fixed top-0 left-0 w-full z-50 bg-[#0a0a0a]/80 backdrop-blur-md border-b border-white/10">
+        <div class="max-w-6xl mx-auto px-6 h-16 flex items-center justify-between">
+            <a href="#" class="text-xl font-bold text-white tracking-wider">F<span class="text-emerald-500">.</span></a>
+            <div class="hidden md:flex items-center gap-8 text-sm font-medium">
+                <a href="#about" class="hover:text-emerald-400 transition">About Me</a>
+                <a href="#education" class="hover:text-emerald-400 transition">Education</a>
+                <a href="#skills" class="hover:text-emerald-400 transition">Skills</a>
+                <a href="#projects" class="hover:text-emerald-400 transition">Projects</a>
+                <a href="#contact" class="hover:text-emerald-400 transition">Contact Me</a>
+            </div>
+        </div>
+    </nav>
+
+    <!-- HERO SECTION -->
+    <section class="min-h-screen flex items-center justify-center pt-20 px-6">
+        <div class="max-w-4xl w-full text-center space-y-6">
+            <h2 class="text-emerald-500 font-mono tracking-widest uppercase text-sm">Hello, my name is</h2>
+            <h1 class="text-4xl md:text-7xl font-extrabold text-white tracking-tight">
+                Ahmad Shafwan Farhan
+            </h1>
+            <p class="text-xl md:text-2xl text-gray-400 max-w-2xl mx-auto font-light">
+                Information System Graduate specializing in <span class="text-white font-medium">Data Mining</span>, Leadership, and Management.
+            </p>
+            <div class="pt-4">
+                <a href="#about" class="inline-block border border-emerald-500/30 bg-emerald-500/10 text-emerald-400 px-6 h-12 inline-flex items-center justify-center rounded-full font-medium hover:bg-emerald-500 hover:text-black transition duration-300">
+                    Explore My Portfolio
+                </a>
+            </div>
+        </div>
+    </section>
+
+    <!-- ABOUT ME & PHOTO -->
+    <section id="about" class="py-24 max-w-5xl mx-auto px-6 border-t border-white/5">
+        <div class="grid md:grid-cols-3 gap-12 items-center">
+            <div class="md:col-span-1 flex justify-center">
+                <div class="relative group w-64 h-64 md:w-full md:h-auto aspect-[3/4] rounded-2xl overflow-hidden border border-white/10 bg-[#121212]">
+                    <img src="https://unsplash.com" 
+                         alt="Ahmad Shafwan Farhan" 
+                         class="w-full h-full object-cover filter grayscale contrast-125 group-hover:grayscale-0 transition duration-500">
+                    <div class="absolute inset-0 bg-emerald-500/10 mix-blend-multiply group-hover:opacity-0 transition duration-500"></div>
+                </div>
+            </div>
+            
+            <div class="md:col-span-2 space-y-6">
+                <h3 class="text-2xl font-bold text-white flex items-center gap-3">
+                    <span class="text-emerald-500 font-mono text-lg">01.</span> About Me
+                </h3>
+                <p class="text-gray-400 leading-relaxed text-lg">
+                    I am a highly motivated <span class="text-white font-medium">Information System Graduate</span> from State Islamic University of North Sumatra (UINSU). I possess a strong foundation in data management, business process analysis, and modern technology administration.
+                </p>
+                <p class="text-gray-400 leading-relaxed text-lg">
+                    My academic journey has driven me to explore advanced data intelligence, focusing on utilizing algorithms like <span class="text-emerald-400">K-Means Data Mining</span> to process information and drive strategic, data-driven decisions. Combined with my proven leadership capabilities and administrative skills, I aim to optimize operational efficiency in business technology environments.
+                </p>
+            </div>
+        </div>
+    </section>
+
+    <!-- EDUCATION -->
+    <section id="education" class="py-24 max-w-5xl mx-auto px-6 border-t border-white/5">
+        <h3 class="text-2xl font-bold text-white flex items-center gap-3 mb-12">
+            <span class="text-emerald-500 font-mono text-lg">02.</span> Education
+        </h3>
+        <div class="bg-[#121212] border border-white/5 p-8 rounded-2xl flex flex-col md:flex-row justify-between items-start md:items-center gap-6">
+            <div>
+                <h4 class="text-xl font-bold text-white">State Islamic University of North Sumatra (UINSU)</h4>
+                <p class="text-emerald-400 font-mono text-sm mt-1">Bachelor of Science in Information System</p>
+                <p class="text-gray-400 text-sm mt-2">Graduated with a focus on Business Systems and Data Intelligence.</p>
+            </div>
+            <div class="text-left md:text-right">
+                <span class="inline-block bg-white/5 border border-white/10 text-white font-mono text-xs px-3 py-1 rounded-full">Fresh Graduate</span>
+                <div class="mt-2 text-2xl font-extrabold text-white">GPA: 3.17 <span class="text-xs font-normal text-gray-500">/ 4.00</span></div>
+            </div>
+        </div>
+    </section>
+
+    <!-- SKILLS -->
+    <section id="skills" class="py-24 max-w-5xl mx-auto px-6 border-t border-white/5">
+        <h3 class="text-2xl font-bold text-white flex items-center gap-3 mb-12">
+            <span class="text-emerald-500 font-mono text-lg">03.</span> Core Capabilities
+        </h3>
+        <div class="grid grid-cols-2 md:grid-cols-4 gap-4">
+            <div class="bg-[#121212] border border-white/5 p-6 rounded-xl hover:border-emerald-500/30 transition">
+                <div class="text-emerald-400 text-xs font-mono mb-2">01 / TECH</div>
+                <h4 class="font-semibold text-white">K-Means Data Mining</h4>
+            </div>
+            <div class="bg-[#121212] border border-white/5 p-6 rounded-xl hover:border-emerald-500/30 transition">
+                <div class="text-emerald-400 text-xs font-mono mb-2">02 / ROLES</div>
+                <h4 class="font-semibold text-white">Leadership</h4>
+            </div>
+            <div class="bg-[#121212] border border-white/5 p-6 rounded-xl hover:border-emerald-500/30 transition">
+                <div class="text-emerald-400 text-xs font-mono mb-2">03 / ORG</div>
+                <h4 class="font-semibold text-white">Management</h4>
+            </div>
+            <div class="bg-[#121212] border border-white/5 p-6 rounded-xl hover:border-emerald-500/30 transition">
+                <div class="text-emerald-400 text-xs font-mono mb-2">04 / BUSINESS</div>
+                <h4 class="font-semibold text-white">Marketing & Admin</h4>
+            </div>
+        </div>
+    </section>
+
+    <!-- PROJECTS & EXPERIENCES -->
+    <section id="projects" class="py-24 max-w-5xl mx-auto px-6 border-t border-white/5">
+        <h3 class="text-2xl font-bold text-white flex items-center gap-3 mb-12">
+            <span class="text-emerald-500 font-mono text-lg">04.</span> Projects & History
+        </h3>
+        <div class="grid md:grid-cols-2 gap-6">
+            <div class="bg-[#121212] border border-white/5 p-8 rounded-2xl space-y-4">
+                <span class="text-xs font-mono text-emerald-400">Research & Thesis Project</span>
+                <h4 class="text-xl font-bold text-white">Customer Segmentation System Using K-Means Clustering</h4>
+                <p class="text-gray-400 text-sm leading-relaxed">
+                    Applied data mining methodologies using clustering analysis to sort intricate datasets, optimizing tracking channels and data intelligence deployment.
+                </p>
+            </div>
+            <div class="bg-[#121212] border border-white/5 p-8 rounded-2xl space-y-4">
+                <span class="text-xs font-mono text-emerald-400">Academic & Organization Experience</span>
+                <h4 class="text-xl font-bold text-white">Information System Project Leadership</h4>
+                <p class="text-gray-400 text-sm leading-relaxed">
+                    Led group research initiatives and managed campus event administration, orchestrating strategic development dynamics.
+                </p>
+            </div>
+        </div>
+    </section>
+
+    <!-- CONTACT ME -->
+    <section id="contact" class="py-32 max-w-3xl mx-auto text-center px-6 border-t border-white/5">
+        <h3 class="text-emerald-400 font-mono text-sm mb-4">05. What's Next?</h3>
+        <h2 class="text-3xl md:text-5xl font-bold text-white mb-6">Get In Touch</h2>
+        <p class="text-gray-400 mb-8 max-w-md mx-auto">
+            I am currently looking for new professional opportunities as a Fresh Graduate. Whether you have a question or want to discuss analytics, feel free to connect!
+        </p>
+        <a href="https://linkedin.com" target="_blank" rel="noopener noreferrer" 
+           class="inline-block border-2 border-emerald-500 text-emerald-400 px-8 h-14 inline-flex items-center justify-center rounded-full font-semibold hover:bg-emerald-500 hover:text-black transition duration-300">
